@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+<!--    <item-->
+<!--        android:id="@+id/tabHome"-->
+<!--        android:icon="@drawable/ic_bottomnav_home"-->
+<!--        android:title="@string/title_home" />-->
+
+<!--    <item-->
+<!--        android:id="@+id/tabGroup"-->
+<!--        android:icon="@drawable/ic_bottomnav_group"-->
+<!--        android:title="@string/title_group" />-->
+
+<!--    <item-->
+<!--        android:id="@+id/tabSearch"-->
+<!--        android:icon="@drawable/ic_bottomnav_search"-->
+<!--        android:title="@string/title_search" />-->
+
+<!--    <item-->
+<!--        android:id="@+id/tabProfile"-->
+<!--        android:icon="@drawable/ic_bottomnav_profile"-->
+<!--        android:title="@string/title_profile" />-->
+</menu>

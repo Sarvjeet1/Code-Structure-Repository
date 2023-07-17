@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">@color/whiteLight</color>
+    <color name="colorPrimaryDark">@color/whiteLight</color>
+    <color name="colorAccent">@color/orange</color>
+
+    <color name="divider">@color/grayLight</color>
+
+    <color name="background_light">#F9F9F9</color>
+    <color name="transparentWhiteDim">#90FFFFFF</color>
+    <color name="transparentBlackDark">#99000000</color>
+    <color name="transparentBlack">#20000000</color>
+    <color name="transparentWhite">#4DFFFFFF</color>
+    <color name="transparent">@android:color/transparent</color>
+
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="whiteLight">#F9F9F9</color>
+    <color name="orange">#FBA919</color>
+    <color name="orangeDark">#FD9E38</color>
+    <color name="red">#F44336</color>
+    <color name="grayLightest">#EAEAEA</color>
+    <color name="grayLighter">#E5E5E5</color>
+    <color name="grayLighterLight">#F2F2F2</color>
+    <color name="grayLight">#EBEBEB</color>
+    <color name="gray">#C4C4C4</color>
+    <color name="grayDark">#9F9F9F</color>
+    <color name="grayDarker">#666666</color>
+    <color name="grayDarkest">#414042</color>
+
+    // For texts
+    <color name="textBlack">@color/black</color>
+    <color name="textGrayDark">@color/grayDark</color>
+    <color name="textGrayDarkest">@color/grayDarkest</color>
+    <color name="textWhite">@color/white</color>
+    <color name="textOrange">@color/orange</color>
+    <color name="textOrangeDark">@color/orangeDark</color>
+    <color name="textGrayDarker">@color/grayDarker</color>
+
+    // For swipe refresh
+    <color name="swipeRefreshScheme">@color/colorAccent</color>
+    <color name="swipeRefreshBgScheme">@color/white</color>
+
+</resources>

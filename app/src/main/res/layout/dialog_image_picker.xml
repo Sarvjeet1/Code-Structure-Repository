@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/clRoot"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/clImageSource"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_13sdp"
+        android:background="@drawable/bg_image_picker"
+        app:layout_constraintBottom_toTopOf="@id/tvCancel"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TextView
+            android:id="@+id/tvDeletePhoto"
+            style="@style/TextViewMedium"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/_45sdp"
+            android:gravity="center"
+            android:text="@string/delete_photo"
+            android:textColor="@color/textOrange"
+            android:textSize="@dimen/_13ssp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <View
+            android:id="@+id/viewDeletePhoto"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/divider_thin"
+            android:background="@color/divider"
+            app:layout_constraintTop_toBottomOf="@id/tvDeletePhoto" />
+
+        <TextView
+            android:id="@+id/tvTakePhoto"
+            style="@style/TextViewMedium"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/_45sdp"
+            android:gravity="center"
+            android:text="@string/take_photo"
+            android:textColor="@color/textGrayDarker"
+            android:textSize="@dimen/_13ssp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/viewDeletePhoto" />
+
+        <View
+            android:id="@+id/viewTakePhoto"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/divider_thin"
+            android:background="@color/divider"
+            app:layout_constraintTop_toBottomOf="@id/tvTakePhoto" />
+
+        <TextView
+            android:id="@+id/tvChoosePhoto"
+            style="@style/TextViewMedium"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/_45sdp"
+            android:gravity="center"
+            android:text="@string/choose_photo"
+            android:textColor="@color/textGrayDarker"
+            android:textSize="@dimen/_13ssp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/viewTakePhoto" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:id="@+id/tvCancel"
+        style="@style/TextViewMedium"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/_45sdp"
+        android:layout_margin="@dimen/_13sdp"
+        android:background="@drawable/bg_image_picker"
+        android:gravity="center"
+        android:text="@string/cancel"
+        android:textColor="@color/textGrayDarker"
+        android:textSize="@dimen/_13ssp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+

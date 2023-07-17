@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <integer name="name_initial">1</integer>
+    <integer name="phone_min">10</integer>
+    <integer name="phone_max">15</integer>
+    <integer name="pass_min">6</integer>
+    <integer name="pass_max">15</integer>
+    <integer name="name_min">4</integer>
+    <integer name="username_min">4</integer>
+    <integer name="username_max">25</integer>
+    <integer name="email_max">50</integer>
+    <integer name="company_max">50</integer>
+    <integer name="dob_min">10</integer>
+    <integer name="dob_max">10</integer>
+    <integer name="time_min">5</integer>
+    <integer name="time_max">5</integer>
+    <integer name="bio_max">300</integer>
+    <integer name="description_max">300</integer>
+    <integer name="location_max">100</integer>
+    <integer name="name_max">25</integer>
+    <integer name="name_authorization_max">20</integer>
+    <integer name="authorization_max">12</integer>
+    <integer name="header_max">25</integer>
+    <integer name="insurance_claim_number_max">15</integer>
+    <integer name="debris_limit_max">15</integer>
+
+    <integer name="search_length_min">1</integer>
+
+    <integer name="otp_single_field">1</integer>
+    <integer name="otp_max">6</integer>
+
+    <integer name="time_single_field">1</integer>
+
+    <integer name="card_number_min">19</integer>
+    <integer name="card_number_max">19</integer>
+    <integer name="card_expiry_min">5</integer>
+    <integer name="card_expiry_max">5</integer>
+    <integer name="card_cvv_min">3</integer>
+    <integer name="card_cvv_max">3</integer>
+
+</resources>
